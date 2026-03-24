@@ -6,6 +6,7 @@ public class MyJump : MonoBehaviour
 {
     public Rigidbody rigidbody;
     public float power = 20f;
+    public float timer = 0;
     public Text TextUI;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
